@@ -2,7 +2,7 @@
 * LEARN
     * [0519NGINX](doc\0519nginx.md)
     * [0519dosify](doc\0519win10docsify.md)
-    * [0520es]()
+    * [0520es](doc\0520es集群.md)
 
 
   
