@@ -1,4 +1,4 @@
-![image-20200603000329174](.\SpringSecurity.assets\image-20200603000329174.png)
+![image-20200603000329174](..\doc\SpringSecurity.assets\image-20200603000329174.png)
 
 
 
@@ -8,11 +8,11 @@
 
 SpringSecurity提供了一个接口UserDetailsService
 
-![image-20200603232456058](.\SpringSecurity.assets\image-20200603232456058.png)
+![image-20200603232456058](..\doc\SpringSecurity.assets\image-20200603232456058.png)
 
 提供了一个loadUserByUsername的方法，我们需要实现这个接口根据自己的数据库去查询，然后返回一个User对象
 
-![image-20200603233003305](.\SpringSecurity.assets\image-20200603233003305.png)
+![image-20200603233003305](..\doc\SpringSecurity.assets\image-20200603233003305.png)
 
 2.用户是否过期的校验：
 
@@ -22,17 +22,17 @@ nonExpired 是账户没有过期，nonLocked账户是否锁定，credentialsNonE
 
 3.密码的加密解密：
 
-![image-20200603233925667](.\SpringSecurity.assets\image-20200603233925667.png)
+![image-20200603233925667](..\doc\SpringSecurity.assets\image-20200603233925667.png)
 
 SpringSecurity提供了一个加密解密的类，放入数据库的时候需要encode
 
 然后在配置中需要加入
 
-![image-20200603234113906](.\SpringSecurity.assets\image-20200603234113906.png)
+![image-20200603234113906](..\doc\SpringSecurity.assets\image-20200603234113906.png)
 
 如果你的数据库有另一套加密解密的方式
 
-![image-20200603234219214](.\SpringSecurity.assets\image-20200603234219214.png)
+![image-20200603234219214](..\doc\SpringSecurity.assets\image-20200603234219214.png)
 
 需要自己实现这个接口的加密解密方法
 
@@ -58,7 +58,7 @@ public UsernamePasswordAuthenticationFilter() {
 
 .loginProceesingUrl 配置登录的接口
 
-![image-20200603235808151](.\SpringSecurity.assets\image-20200603235808151.png)
+![image-20200603235808151](..\doc\SpringSecurity.assets\image-20200603235808151.png)
 
 自定义跳转controller
 
